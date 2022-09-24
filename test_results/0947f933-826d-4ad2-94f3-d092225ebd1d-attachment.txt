@@ -1,0 +1,39 @@
+              Метод POST
+https://petstore.swagger.io/v2/pet
+{"id":5,"category":{"id":5,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":5,"name":"string"}],"status":"available"}
+['id', 'category', 'name', 'photoUrls', 'tags', 'status']
+Успешно!!! Статус код = 200
+Все поля присутствуют
+status верен
+              Метод GET POST
+{"id":5,"category":{"id":5,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":5,"name":"string"}],"status":"available"}
+Успешно!!! Статус код = 200
+['id', 'category', 'name', 'photoUrls', 'tags', 'status']
+Все поля присутствуют
+status верен
+name верен
+              Метод PUT
+{"id":5,"category":{"id":5,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":5,"name":"string"}],"status":"pending"}
+['id', 'category', 'name', 'photoUrls', 'tags', 'status']
+Успешно!!! Статус код = 200
+Все поля присутствуют
+name верен
+status верен
+              Метод GET PUT
+{"id":5,"category":{"id":5,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":5,"name":"string"}],"status":"pending"}
+Успешно!!! Статус код = 200
+Все поля присутствуют
+status верен
+              Метод DELETE
+{"code":200,"type":"unknown","message":"5"}
+Успешно!!! Статус код = 200
+['code', 'type', 'message']
+Все поля присутствуют
+type верен
+              Метод GET DELETE
+{"code":1,"type":"error","message":"Pet not found"}
+Успешно!!! Статус код = 404
+['code', 'type', 'message']
+Все поля присутствуют
+Слово Pet not found присутствует
+Тестирование создания, изменения и удаления нового пета прошло успешно

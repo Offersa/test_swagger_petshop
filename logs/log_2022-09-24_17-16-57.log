@@ -1,0 +1,78 @@
+
+-----
+Test: Tests/test_swagger_petshop.py::Test_create_pet::test_add_new_pet (call)
+Time: 2022-09-24 17:16:57.158804
+Request method: POST
+Request URL: https://petstore.swagger.io/v2/pet
+
+Response code: 200
+Response text: {"id":5,"category":{"id":5,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":5,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Sat, 24 Sep 2022 14:16:59 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: Tests/test_swagger_petshop.py::Test_create_pet::test_add_new_pet (call)
+Time: 2022-09-24 17:16:57.700844
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/pet/5
+
+Response code: 200
+Response text: {"id":5,"category":{"id":5,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":5,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Sat, 24 Sep 2022 14:16:59 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: Tests/test_swagger_petshop.py::Test_create_pet::test_add_new_pet (call)
+Time: 2022-09-24 17:16:58.186153
+Request method: PUT
+Request URL: https://petstore.swagger.io/v2/pet
+
+Response code: 200
+Response text: {"id":5,"category":{"id":5,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":5,"name":"string"}],"status":"pending"}
+Response headers: {'Date': 'Sat, 24 Sep 2022 14:17:00 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: Tests/test_swagger_petshop.py::Test_create_pet::test_add_new_pet (call)
+Time: 2022-09-24 17:16:58.670903
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/pet/5
+
+Response code: 200
+Response text: {"id":5,"category":{"id":5,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":5,"name":"string"}],"status":"pending"}
+Response headers: {'Date': 'Sat, 24 Sep 2022 14:17:00 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: Tests/test_swagger_petshop.py::Test_create_pet::test_add_new_pet (call)
+Time: 2022-09-24 17:16:59.208233
+Request method: DELETE
+Request URL: https://petstore.swagger.io/v2/pet/5
+
+Response code: 200
+Response text: {"code":200,"type":"unknown","message":"5"}
+Response headers: {'Date': 'Sat, 24 Sep 2022 14:17:01 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: Tests/test_swagger_petshop.py::Test_create_pet::test_add_new_pet (call)
+Time: 2022-09-24 17:16:59.698927
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/pet/5
+
+Response code: 404
+Response text: {"code":1,"type":"error","message":"Pet not found"}
+Response headers: {'Date': 'Sat, 24 Sep 2022 14:17:01 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
